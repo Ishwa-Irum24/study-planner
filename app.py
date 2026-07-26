@@ -1,35 +1,7 @@
 """
 AI STUDY PLANNER PRO — Streamlit Edition
 ==========================================
-Converted from the original Tkinter desktop app into a single-file,
-browser-based, mobile-compatible Streamlit application.
 
-Preserves original functionality:
-  - Splash Screen
-  - Login
-  - Subject Selection + Custom Subject Add
-  - Difficulty Selection (Easy / Medium / Hard)
-  - BFS demonstration (kept, and reused inside the scheduler)
-
-New features added:
-  - Chapter-based planning (user enters number of chapters + names per subject)
-  - Exam date + daily study hours input
-  - AI-style adaptive scheduler:
-        * Weighted round-robin queue (BFS/deque based) that prioritizes
-          harder subjects more frequently
-        * Per-chapter time automatically scaled by difficulty
-        * Automatic revision days inserted at regular intervals,
-          focused on the hardest subjects first
-        * Rule-based study tips generated per subject
-
-Run locally:
-    pip install streamlit
-    streamlit run app.py
-
-Deploy (free, public link, judges can just open a URL):
-    1. Push this file + requirements.txt to a public GitHub repo.
-    2. Go to https://share.streamlit.io -> "New app" -> pick the repo/file.
-    3. Deploy. You get a public https://<name>.streamlit.app link.
 """
 
 import streamlit as st
