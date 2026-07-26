@@ -102,7 +102,7 @@ st.markdown(
 _defaults = {
     "stage": "splash",
     "user_name": "",
-    "subjects_list": ["Python", "DSA", "COAL", "Networking", "AI", "Calculus"],
+    "subjects_list": ["Physics", "Maths", "Computer", "English", "Urdu", "Chemistry"],
     "selected_subjects": [],
     "difficulty": {},
     "num_chapters": {},
